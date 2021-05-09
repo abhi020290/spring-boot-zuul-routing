@@ -9,7 +9,7 @@
 		<relativePath /> 
 	</parent>
 
-	<groupId>com.mynotes.spring.cloud.eureka</groupId>
+	<groupId>com..spring.cloud.eureka</groupId>
 	<artifactId>recommendation-service</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>recommendation-service</name>
