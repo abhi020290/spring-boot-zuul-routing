@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="movie-service" />
+        <module name="zuul-gateway-api" />
+        <module name="eureka-server-demo" />
+        <module name="recommendation-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server-demo" target="1.8" />
+      <module name="movie-service" target="1.8" />
+      <module name="recommendation-service" target="1.8" />
+      <module name="spring-boot-eureka-discovery" target="1.5" />
+      <module name="zuul-gateway-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server-demo" options="-parameters" />
+      <module name="movie-service" options="-parameters" />
+      <module name="recommendation-service" options="-parameters" />
+      <module name="zuul-gateway-api" options="-parameters" />
+    </option>
+  </component>
+</project>
